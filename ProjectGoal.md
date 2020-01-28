@@ -6,4 +6,7 @@ Amazon review dataset: https://s3.amazonaws.com/fast-ai-nlp/amazon_review_polari
 Review score 1 and 2 as negative, and 4 and 5 as positive. Samples of score 3 is ignored. 
 In the dataset, class 1 is the negative and class 2 is the positive. 
 Each class has 1,800,000 training samples and 200,000 testing samples.
+The fields in the raw data include the title and review text.
 
+# End Goal
+Our first goal is to train a classifier to identify positive and negative reviews. The next goal is to identify the topics of the negative reviews and this will provide us with information about why the customer placed a negative review.
